@@ -1,77 +1,109 @@
-<html>
+<!doctype html>
+<html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>PTC - Coming Soon</title>
-<style>
-body {
-  background: #000;
-}
-
-#YakındaYazı {
-  color: green;
-  /*color: #8002f5;*/
-  font-family: Monaco, monospace;
-  font-size: 24px;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 45%;
-  left: 0;
-  animation: 120ms infinite normal glitch;
-}
-
-span {
-  animation: 1.5s infinite normal imleç;
-}
-
-::-moz-selection {
-  background: #7021d2;
-  color: #fff;
-}
-
-::selection {
-  background: #7021d2;
-  color: #fff;
-}
-
-@keyframes glitch {
-  0% {
-    opacity: 0;
-    left: 0;
-  }
-  40%,
-  80% {
-    opacity: 1;
-    left: -2px;
-  }
-}
-
-@keyframes imleç {
-  0% {
-    opacity: 0;
-    left: 0;
-  }
-  40% {
-    opacity: 0;
-    left: -2px;
-  }
-  80% {
-    opacity: 1;
-    left: -2px;
-  }
-}
-
-</style>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="media/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <!-- Flaticon CSS -->
+  <link rel="stylesheet" href="font/flaticon.css">
+  <!-- Custom Animation CSS -->
+  <link rel="stylesheet" href="css/fxt-animation.css">
+  <!-- Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-    <div id="YakındaYazı">█ █ █ <span style="color:black">█ █ █ █ █ █ █ █ █ █ </span>31%
-      <br>&gt; We are coming soon! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <br>&gt; PTC - ProVision Trading Company  <span id="imleç">█</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <!-- Page Loader Start -->
+  <div id="preloader"></div>
+  <!-- Page Loader End -->
+  <div class="wrapper">
+    <!-- Main Body Area Start Here -->
+    <div class="fxt-template has-animation">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="fxt-banner">
+              <div class="translate-left-100 transition-150 transition-delay-1500">
+                <img src="media/figure/banner.png" alt="Banner">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="fxt-main-content">
+              <div class="translate-bottom-100 transition-100 transition-delay-2200">
+                <div class="fxt-logo">
+                  <a href="#"><img src="media/logo-light.png" alt="Logo"></a>
+                </div>
+              </div>
+              <div class="translate-bottom-100 transition-100 transition-delay-2400">
+                <h1 class="fxt-main-title">Stay Tuned for Something Amazing!</h1>
+              </div>
+              <div class="translate-bottom-100 transition-100 transition-delay-2600">
+                <div class="fxt-countdown">
+                  <div class="countdown"></div>
+                </div>
+              </div>
+              <div class="fxt-socials">
+                <ul>
+                  <li class="fxt-facebook">
+                    <div class="translate-bottom-100 transition-100 transition-delay-3000">
+                      <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                  </li>
+                  <li class="fxt-twitter">
+                    <div class="translate-bottom-100 transition-100 transition-delay-3100">
+                      <a href="#" title="twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                  </li>
+                  <li class="fxt-google">
+                    <div class="translate-bottom-100 transition-100 transition-delay-3200">
+                      <a href="#" title="google"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                  </li>
+                  <li class="fxt-linkedin">
+                    <div class="translate-bottom-100 transition-100 transition-delay-3300">
+                      <a href="#" title="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="translate-bottom-100 transition-100 transition-delay-3500">
+                <div class="fxt-copyright">&copy; 2023 PTC — All Rights Reserved.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </body>
+    <!-- Main Body Area End Here -->
+  </div>
+  <!-- jquery-->
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Imagesloaded js -->
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <!-- Countdown js -->
+  <script src="js/jquery.countdown.min.js"></script>
+  <!-- Custom Js -->
+  <script src="js/main.js"></script>
+
+</body>
 
 </html>
